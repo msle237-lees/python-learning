@@ -20,6 +20,11 @@ plt.show()
 
 
 
+
+
+
+
+
 import cv2 
 
 cam = cv2.VideoCapture(0)
@@ -38,6 +43,14 @@ while True:
 # Release the video capture device and destroy the window
 cam.release()
 cv2.destroyAllWindows()
+
+
+
+
+
+
+
+
 
 
 import cv2
