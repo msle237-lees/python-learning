@@ -11,9 +11,15 @@ while i < 10:
 
 import random
 
+
+
+
+
 number = random.randint(1, 100)
 attempts = 0
 
+
+# Main loop
 while True:
     try:
         guess = int(input("Enter a number: "))
